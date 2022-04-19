@@ -24,6 +24,7 @@ console.log(Number(pi));
 console.log(typeof String(pi));
 console.log(typeof Number(pi));
 
+console.log(+pi) //gives NaN
 
 
 // ....... to be continued

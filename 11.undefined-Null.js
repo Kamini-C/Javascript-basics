@@ -26,7 +26,7 @@ console.log(typeof myNumber); //bigint
 console.log(Number.MAX_SAFE_INTEGER); //number // 9007199254740991
 console.log(typeof (Number.MAX_SAFE_INTEGER+1)); //number
 
-console.clear();
+// console.clear();
 //2 ways to create bigint
 let myInt1 = BigInt(123);
 let myInt2 = 123n;

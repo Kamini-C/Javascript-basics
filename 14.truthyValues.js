@@ -18,7 +18,7 @@ firstName = false;
 firstName = "";
 firstName = null;
 firstName = 0;
-firstName =  Number.MAX_SAFE_INTEGER - Number.MAX_SAFE_INTEGER; //Infinity //true value
+firstName =  Number.MAX_SAFE_INTEGER - Number.MAX_SAFE_INTEGER; //Infinity //true value //???
 
 //firstName =  Number.MAX_SAFE_INTEGER ** Number.MAX_SAFE_INTEGER; //Infinity //true value
 //firstName = Infinity; //true value
