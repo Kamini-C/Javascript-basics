@@ -9,6 +9,7 @@ let array1 = ["Kamini", "Chhabra"];
 // let array2 = [].concat(array1);
 // let array2 = [...array1]; // spread Operator
 let array2 = Array.from(array1);
+console.log(array2);
 
 console.log(array1 == array2); //false // because these are tw different arrays
 console.log(array1 === array2); //false // because these are tw different arrays
@@ -25,4 +26,4 @@ array2 = [].concat(array1).concat(["item3.2","item4.2"]);
 array2 = [...array1,"item3.3","item4.3"];
 array2 = [...array1,...array1];
 
-console.log(array2);
+// console.log(array2);

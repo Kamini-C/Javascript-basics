@@ -1,5 +1,6 @@
 // use const for creating Arrays
-const pi = (22/7).toPrecision(5);
+// const pi = (22/7).toPrecision(5);
+const pi = (22/7).toFixed(5);
 console.log(pi);  // cannot change value of primitive const variables
 
 // Reference Type Variables

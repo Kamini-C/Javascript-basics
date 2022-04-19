@@ -18,7 +18,7 @@ let userGuess = prompt("Guess, how many students in the class?(Please enter numb
 if(isNaN(parseFloat(userGuess))){
     let message = ("User didn't input number");
     console.log(message);
-    alert(message);
+    // alert(message);
 }else{
     userGuess = +userGuess;
     if(userGuess === studentsInClass){

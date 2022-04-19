@@ -17,7 +17,7 @@ console.log(fruits);
 console.log(fruits[2]);
 fruits[1] = "banana";
 console.log(fruits);
-let obj = {};
+let obj = {}; //Object Literal
 
 console.log(typeof fruits);
 console.log(typeof obj);

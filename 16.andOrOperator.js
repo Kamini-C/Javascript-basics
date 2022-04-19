@@ -22,3 +22,4 @@ if(marriedTo[0] === "P" || wife[0] === "K"){
 }else{
     console.log('oh shit PK 🤷‍♀️');
 }
+

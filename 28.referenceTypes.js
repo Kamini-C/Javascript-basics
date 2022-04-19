@@ -4,7 +4,7 @@
 let num1 = 7;
 let num2 = num1;
 console.log(num1, num2);
-num2=88;
+num1=88;
 console.log(num1, num2);
 
 let array1 = ["Apple", "Oranges", "Mango"];
@@ -12,5 +12,9 @@ let array2 = array1;
 
 console.log(array1, array2);
 
-array1.push("Banana");
+//Changing either of the array will have effects on both arrays as the refer to same memory space in Heap
+array1.push("Banana"); //Add in Array 1
 console.log(array1, array2);
+array2.push("Kiwi"); //Add in Array 2
+console.log(array1, array2);
+

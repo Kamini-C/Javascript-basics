@@ -7,9 +7,12 @@
 
 fruits = ["apple", "grapes", "mango"];
 
-console.log(fruits.push("kiwi")); 
-console.log(fruits.pop());
-console.log(fruits.shift("jackfruit"));
-console.log(fruits.unshift("jackfruit"));
+console.log(fruits.push("kiwi")); //4
+console.log(fruits.pop()); //kiwi
+console.log(fruits);
 
+fruits.shift();
+console.log(fruits);
+
+fruits.unshift("jackfruit");
 console.log(fruits);
