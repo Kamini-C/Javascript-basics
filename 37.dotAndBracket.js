@@ -16,5 +16,6 @@ console.log(person["person hobbies"]); // It allows to query keys with spaces
 const key = "email";
 
 person[key] = "parteek_chhabra@hotmail.com"; //dynamic Key
+// cannot use . notation in this case to add dynamic key name
 console.log(person.email);
 console.log(person);

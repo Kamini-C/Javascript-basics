@@ -8,20 +8,20 @@
 
 const person = {
     fname: "Parteek",
-    lname: "******",
+    lname: "*******",
     age: 29,
     favPerson: "Kamini",
-    hobbies: ["listening", "sleeping", "travelling", "loving"]
-
+    hobbies: ["listening", "sleeping", "travelling", "loving wifey"],
+    "place of birth": "Jalandhar"    
 }
 
 console.log(person);
 console.log(typeof person);
-console.log(person.favPerson);
-console.log(person["favPerson"]); // all keys are string in objects
-console.log(person.hobbies);
+console.log(person.favPerson); // all keys are string in objects
+console.log(person["place of birth"]); // [] notation is needed for such keys
+console.log(person["hobbies"]);
 
 // adding or updating more key value pairs
-person.gender = "male";
-person.lname = "Chhabra";
+person.gender = "male"; // we can alternate between both notations
+person["lname"] = "Chhabra"; //keys are unique in object
 console.log(person);

@@ -8,7 +8,7 @@ const person = {
     "person hobbies": ["listening", "sleeping", "travelling", "loving"]
 }
 
-console.log(person);
+// console.log(person);
 /* 
 2 ways:
 for in loop // iterate index
