@@ -13,9 +13,11 @@ const value2 = "myvalue2";
 // }
 
 const obj = {
-    [key1]: value1,
+    [key1]: value1, // [] computes the value
     [key2]: value2
 }
+
+// Another Way
 
 //obj = {}
 //obj[key1] = value1;

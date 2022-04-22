@@ -15,11 +15,12 @@ for in loop // iterate index
 Object.keys
  */
 
-for (let key in person){
-    console.log(`${key} : ${person[key]}`);
-}
+// for (let key in person){
+//     console.log(`${key} : ${person[key]}`);
+// }
 
 console.log(Object.keys(person)); // returns array of keys only
+console.log(Object.values(person)); // returns array of values only
 // Next we can iterate over these array of keys using for loop
 for(let key of Object.keys(person)){
     console.log(`${key} : ${person[key]}`);

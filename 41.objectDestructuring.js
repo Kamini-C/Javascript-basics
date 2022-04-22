@@ -15,14 +15,14 @@ const famousSongL = band.famousSong;
 
 console.log(bandNameL, famousSongL);
 
-// Shortcut 
+// Shortcut - Destructuring
 // will create two const variables from keys
 const { bandName, famousSong, ...restProps } = band;
-console.log(bandName, famousSong);
+console.log("Const: ", bandName, famousSong);
 
 // will create two let variables renaming variables
 let { bandName: var1, famousSong: var2 } = band;
-console.log(var1, var2); 
+console.log("Variables: ",var1, var2); 
 
 // Left over properties in an object
 console.log(restProps);

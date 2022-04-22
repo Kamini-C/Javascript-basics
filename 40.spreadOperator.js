@@ -26,12 +26,12 @@ const obj2 = {
 }
 
 // Keys are unique
-const newObj = {...obj1, ...obj2};
-const newObj1 = { ...obj1, ...obj2, key5: "value5" };   // key1 will come from obj2
+const newObj = {...obj1, ...obj2}; // will replace key1 in obj1
+const newObj1 = { ...obj2, ...obj1, key5: "value5" };  // key1 will come from obj1
 const newObj2 = {...["item1","item2"]}; // Array items will have keys as their index
 const newObj3 = {..." abcdefghijklmnopqrstuvwxyz"};
 
-console.log(newObj);
-console.log(newObj1);
-console.log(newObj2);
-console.log(newObj3);
+console.log("newObj", newObj);
+console.log("newObj1", newObj1);
+console.log("newObj2", newObj2);
+console.log("newObj3", newObj3);

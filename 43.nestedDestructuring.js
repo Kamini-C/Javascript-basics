@@ -6,22 +6,20 @@ const users = [
     { userID: 3, firstName: "Aseem", lastName: "Sahil", age: "35", gender: "Male" },
     { userID: 4, firstName: "Saloni", lastName: "Jaggi", age: "31", gender: "Female" },
     { userID: 5, firstName: "Parteek", lastName: "Chhabra", age: "29", gender: "Male" },
-    { userID: 6, firstName: "Kamini", lastName: "Chhabra", age: "30", gender: "Female" },
 ];
 
 console.log(users);
 
-let var1 = users[1].firstName;
+let var1 = users[4].firstName;
 console.log("Long Cut:", var1);
 
-let [
-    ,
-    ,
-    { firstName: firstNameIndex2, gender },
+let [ 
+    , 
+    ,{ firstName: firstNameIndex2, gender },
     { firstName }
 ] = users;
 
-console.log(firstNameIndex2);
-console.log(gender);
-console.log(firstName);
+console.log("firstNameIndex2", firstNameIndex2);
+console.log("gender", gender);
+console.log("firstName", firstName);
 
