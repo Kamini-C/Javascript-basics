@@ -1,10 +1,6 @@
 // JavaScript Function Expressions
 // Also called as Anonymous Functions as they don't have a name
 
-let singHappyBirthday = function() {
-    console.log("Happy Birthday");
-}
-
 // person here is parameter
 singHappyBirthday = function (person) {
     console.log("Happy Birthday", person);
@@ -28,22 +24,6 @@ console.log(sumTwoNumbers(3, 4, 7)); // 7 // third argument will be ignored
 console.log(sumTwoNumbers(-3, 4)); // 1
 console.groupEnd();
 
-// Method 1
-let isEven = function(num1) {
-    if (num1 % 2 === 0) {
-        return true;
-    } else {
-        return false;
-    }
-}
-
-// Method 2
-isEven = function(num1) {
-    if (num1 % 2 === 0) {
-        return true;
-    }
-    return false;
-}
 
 // Method 3
 isEven = function(num1) {
@@ -76,12 +56,11 @@ console.groupEnd();
 
 console.group("findIndex");
 const findIndex = function(array, target){
-    for (item in array) {
-        if (array[item] == target) { 
-          //  console.log("aa",array[item]);
-            return item;
+    for (index in array) {
+        if (array[index] == target) { 
+            return index;
         }
-        //console.log(item);
+        //console.log(index);
     }
     return -1;
 }

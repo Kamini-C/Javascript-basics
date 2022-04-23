@@ -11,7 +11,7 @@ function singHappyBirthday(person) {
 
 // Same function if declared twice will override the latest one
 // "Kamini" here is argument
-singHappyBirthday();
+singHappyBirthday(); // person name Undefined
 singHappyBirthday("Kamini");
 
 

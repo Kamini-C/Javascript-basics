@@ -13,7 +13,6 @@ abc = () => {}
 // person here is parameter
 const singHappyBirthday = person =>  console.log("Happy Birthday", person);
 
-
 // "Kamini" here is argument
 singHappyBirthday("Kamini");
 
@@ -28,22 +27,6 @@ console.log(sumTwoNumbers(3, 4, 7)); // 7 // third argument will be ignored
 console.log(sumTwoNumbers(-3, 4)); // 1
 console.groupEnd();
 
-// Method 1
-let isEven = (num1) => {
-    if (num1 % 2 === 0) {
-        return true;
-    } else {
-        return false;
-    }
-}
-
-// Method 2
-isEven = (num1) => {
-    if (num1 % 2 === 0) {
-        return true;
-    }
-    return false;
-}
 
 // Method 3
 isEven = (num1) => num1 % 2 === 0;
