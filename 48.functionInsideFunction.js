@@ -11,11 +11,13 @@ const app = () => {
     console.log(sum(3, 5));
     console.log(subtract(5, 3));
     console.log(mul(3, 5));
-    console.log(divide(15, 5));
+    // console.log(divide(15, 5)); 
+
 
     console.log("Ending App Function");
     console.groupEnd();
 };
 
-// Inside functions cannot be called outside of the body
 app();
+// Inside functions cannot be called outside of the body
+console.log(divide(15, 5)); // ReferenceError not defined
