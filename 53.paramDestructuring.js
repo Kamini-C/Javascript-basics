@@ -1,12 +1,12 @@
 // param destructuring 
 
-// object 
-// react 
+// used with object 
+// mostly used in react 
 
 const person = {
-    firstName: "harshit",
+    firstName: "parteek",
     gender: "male",
-    age: 500
+    age: 29
 }
 
 // function printDetails(obj){
@@ -15,7 +15,7 @@ const person = {
 // }
 
 
-function printDetails({firstName, gender, age}){
+function printDetails({firstName, gender, age}){ //destructure with curly braces
     console.log(firstName);
     console.log(gender);
     console.log(age);
