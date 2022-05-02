@@ -2,6 +2,7 @@
 
 //creates a new array
 // when using, callback func must have return statement
+//used to perform some action on each array element
 
 const numbers = [3,4,6,1,8];
 
@@ -15,14 +16,14 @@ const squareNumber = numbers.map((number, index) => {
 console.log(squareNumber);
 
 const users = [
-    { firstName: "harshit", age: 23 },
-    { firstName: "mohit", age: 21 },
-    { firstName: "nitish", age: 22 },
-    { firstName: "garima", age: 20 },
+    { firstName: "parteek", age: 30 },
+    { firstName: "kamini", age: 21 },
+    { firstName: "rinky", age: 21 },
+    { firstName: "vikas", age: 29 },
 ]
 
 const userNames = users.map((user) => {
-    return user.firstName;
+    return user.firstName+" people";
 });
 
 console.log(userNames);
