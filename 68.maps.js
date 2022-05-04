@@ -45,7 +45,7 @@ console.log(person.get('firstName'));
 //     console.log(key, typeof key);
 // }
 console.groupCollapsed("For Loop")
-for(let [key, value] of person){
+for(let [key, value] of person){ //destructuring
     // console.log(Array.isArray(key));
     console.log(key, " => " ,value)
 }
