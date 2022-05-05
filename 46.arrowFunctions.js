@@ -58,6 +58,7 @@ console.groupEnd();
 
 console.group("findIndex");
 const findIndex = (array, target) =>{
+    console.log(this) //window object
     for (item in array) {
         if (array[item] == target) { 
           //  console.log("aa",array[item]);

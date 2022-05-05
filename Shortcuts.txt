@@ -1,3 +1,6 @@
 Ctrl+D helps to rename the variables at all places
 Extensions: Quokka , Live Server
 Type 'log' for console.log("");
+
+powershell command:
+touch filename.extension => to create new file
