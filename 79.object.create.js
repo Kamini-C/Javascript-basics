@@ -23,4 +23,3 @@ const user1 = createUser('parteek', 'chhabra', 'parteek@gmail.com', 30, "jalandh
 const user2 = createUser('kamini', 'chhabra', 'kamini@gmail.com', 16, "kapurthala");
 console.log(user1);
 console.log(user2.myAddress());
-// console.log(user3.sing());
