@@ -27,9 +27,12 @@ console.log(hello.prototype); // {}
         console.log('prototype NOT present')
     }
 }
-// hello.prototype.abc = "abc";
-// hello.prototype.xyz = "xyz";
-// hello.prototype.sing = function(){
-//     return "lalalla";
-// };
-// console.log(hello.prototype.sing());
+
+
+hello.prototype.abc = "abc";
+hello.prototype.xyz = "xyz";
+hello.prototype.hello = function(){
+    return "hello world";
+};
+console.log(hello.prototype);
+// console.log(hello.prototype.hello());
