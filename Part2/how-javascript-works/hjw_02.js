@@ -9,7 +9,7 @@ function myFunction(){
     console.log("this is my function");
 }
 
-var firstName = "Harshit";
+var firstName = "Kamini";
 var lastName = "Sharma"
 var fullName = firstName + " " + lastName;
 console.log(fullName);
